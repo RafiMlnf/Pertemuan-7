@@ -1,7 +1,7 @@
 # Mencari bilangan terbesar dari input 3 bilangan
-> Bilangan1 = int(input("Masukkan Bilangan 1:")) 
-> Bilangan2 = int(input("Masukkan Bilangan 2:")) 
-> Bilangan3 = int(input("Masukkan Bilangan 3:"))
+> Bilangan1 = int(input("Masukkan Bilangan 1:"))    
+> Bilangan2 = int(input("Masukkan Bilangan 2:"))  
+> Bilangan3 = int(input("Masukkan Bilangan 3:"))   
 
 Berikutnya kita juga bisa membuat kondisi if int(Bilangan1) and (Bilangan1 > Bilangan3): seperti dibawah ini :  
 print("Nilai terbesarnya adalah :", Bilangan1) Terbesar = Bilangan1 NomBil = "Bilangan 1"  
