@@ -5,4 +5,6 @@ while True:
         max = a
     if a ==0:
         break
-print("\n bilangan terbesar adalah :", max)
+
+print()
+print("Bilangan terbesar adalah :", max)
