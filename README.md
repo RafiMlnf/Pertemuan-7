@@ -107,12 +107,14 @@ for i in range(1,9,1):
     print("Laba Bulan ke-",i," Sebesar = Rp.",laba)
 print("Total Laba Adalah : ",untung)
 ```
-- Masukan integer
-> modal = 100000000  
-> laba = 0  
-> untung = 0  
-- Gunakan fungsi for `for i in range(1,9,1):`. Fungsi `(1,9`,1) adalah untuk membatasi angka dari 1 sampai 9, sedangkan `,1)` untuk menambah 1 nilai setiap output dari `Laba bulan ke -`  
-- Buat kondisi if/elif/else `(i<...)` untuk mengubah status pada beberapa bulan ke -  
+- Masukan integer  
+`modal = 100000000`  
+`laba = 0`  
+`untung = 0`  
+- Gunakan fungsi for `for i in range(1,9,1):`
+    - Fungsi `(1,9`,1) adalah untuk membatasi angka dari 1 sampai 9, 
+    - Sedangkan `,1)` untuk peningkatan 1 nilai setiap output dari `Laba bulan ke - ...`  
+- Buat kondisi if/elif/else `(i<...)` untuk mengubah status pada bulan ke 3, 5, dan 8 
 - Buat rumus `modal*.../100` dan `untung = untung + laba`
 - Cetak hasil
 ```Python
@@ -218,8 +220,8 @@ for a in range(0, 10):
         print("{0:>3}".format(b + a), end=" ")
     print()
 ```
-- Gunakan fungsi for `for a in range(0, 10):` akan berfungsi sebagai kolom begitu juga dengan b tapi akan berfungsi sebagai baris
-> `(0,10)` Berfungsi sebagai pembatas dari angka 0 sampai 9
+- Gunakan fungsi for `for a in range(0, 10):` `a`akan saya fungsikan sebagai kolom, begitu juga dengan `b` tapi akan saya gunakan sebagai baris
+> `(0,10)` Berfungsi sebagai pembatas dari angka 0 sampai 10
 - Cetak hasil menggunakan format `{0:>...}` Untuk memberi jarak setiap angka ke angka, dan beri rumus (b+a) untuk menjumlahkan angka kolom dan baris
 - Run Program  
 
