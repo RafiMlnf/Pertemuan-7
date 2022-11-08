@@ -1,4 +1,3 @@
-# 
 # Mengurutkan 3 nilai dari terkecil ke terbesar
 
 print ("Masukkan 3 bilangan yang diinginkan!")

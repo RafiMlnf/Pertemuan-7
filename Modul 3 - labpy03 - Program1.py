@@ -13,6 +13,6 @@ for i in range(1,9,1):
      untung = untung + laba
     else:
         laba = modal*2/100
-        untung = untung +laba
-    print("Laba Bulan Ke-",i," Sebesar ",laba)
-    print("\nTotal Laba Adalah: ",untung)
+        untung = untung + laba
+    print("Laba Bulan ke-",i," Sebesar = Rp.",laba)
+print("Total Laba Adalah : ",untung)

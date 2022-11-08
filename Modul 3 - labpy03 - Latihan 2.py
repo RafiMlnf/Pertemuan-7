@@ -3,7 +3,7 @@ while True:
     a=int(input("Masukan bilangan : "))
     if max < a:
         max = a
-    if a ==0:
+    if a ==0 :
         break
 
 print()
