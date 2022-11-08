@@ -48,7 +48,7 @@ for i in range (jumlah) :
     print("Data ke", i+1,"=",(random.uniform(0.1,0.5)))
 ```
 *3. Angka yang di input akan mencetak jumlah seberapa banyaknya nilai data ke* `print("Data ke", i+1,"=",(random.uniform(0.1,0.5)))`  
-*4. Cetak dengan rumus `i+1` untuk mencetak +1 setiap seberapa banyak nilai input yang dimasukkan*  
+*4. Cetak dengan rumus `i+1` untuk melakukan peningkatan nilai `+1` setiap banyaknya nilai input yang dimasukkan*  
 > (0.1,0.5) gunanya untuk membatasi angka acak dari 0,1 sampai 0,5  
 
 *5. Jalankan program*  
@@ -79,6 +79,9 @@ print("Bilangan terbesar adalah :", max)
 - Buat kondisi if `max = a`
 - Gunakan angka 0 sebagai fungsi break, dengan menginput angka 0, maka program akan terhenti  
 - Cetak hasil bilangan terbesar dari kondisi `max`  
+- Run Program   
+
+![01  Latihan 2 - Modul 3](https://user-images.githubusercontent.com/115614668/200652421-6a890cbe-830a-4524-b609-c9bc82fb4b45.png)
 
 ---------------------------------------------------
 **Program 1 - Modul Praktikum 3**
@@ -116,8 +119,10 @@ print("Total Laba Adalah : ",untung)
   print("Laba Bulan ke-",i," Sebesar = Rp.",laba)
 print("Total Laba Adalah : ",untung)
 ```
-- Terakhir, run program
-- 
+- Terakhir, run program   
+
+![06  Program 1 - Modul 3](https://user-images.githubusercontent.com/115614668/200653302-0edb103c-4308-4de4-9a0a-4f92f0734f96.png)
+
 ---------------------------------------------------
 **Latihan 1 - Struktur Kondisi**
 ----------------------------------------------
@@ -132,12 +137,26 @@ if a > b:
 else:
     print("Nilai", b ,"Lebih besar dari", a)
 ```
-Hasil run program :
+- Cetak input nilai bilangan  
+`a = input("Masukan nilai a : ")`  
+`b = input("Masukan nilai b : ")`  
+
+- Buat kondisi if dan else  
+```Python
+a > b maka yang dicetak a lebih besar dari b
+
+else adalah sebaliknya
+b > a maka yang dicetak b lebih besar dari a
+```
+
+- Hasil run program :  
+
+![07  Latihan 1 - Struktur Kondisi](https://user-images.githubusercontent.com/115614668/200654559-f508634f-33ec-4b86-a06a-a8ef89b2ab62.png)  
 
 ---------------------------------------------------
 **Latihan 2 - Struktur Kondisi**
 ----------------------------------------------
-Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkeciL.
+Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan hasilnya secara berurutan mulai dari data terkecil.
 ```Python
 # Mengurutkan 3 nilai dari terkecil ke terbesar
 
@@ -162,9 +181,71 @@ else:
     else:
         print(c, b, a)
 ```
+- Cetak masukan input bilangan 
+```Python
+print ("Masukkan 3 bilangan yang diinginkan!")
+a = input("Bilangan 1 = ")
+b = input("Bilangan 2 = ")
+c = input("Bilangan 3 = ")
+```
+- Buat kondisi if/else/elif
+```Python
+b < c
+Maka a adalah bilangan terkecil disusul b dan c
+else : sebaliknya
 
-Hasil run program
+b < a dan b < c
+if   : a < c
+Maka b adalah bilangan terkecil disusul b dan c atau c dan b
+else : sebaliknya
+
+if   : a < b
+Maka c adalah bilangan terkecil disusul a dan b atau b dan a
+else : sebaliknya
+```
+
+- Run program  
+
+![08  Latihan 2 - Struktur Kondisi](https://user-images.githubusercontent.com/115614668/200654535-a97c84ba-e6bf-4adc-b6ba-1d7ac782b87c.png)  
 
 ---------------------------------------------------
 **Latihan 1 - Perulangan**
 ----------------------------------------------
+Program dengan perulangan bertingkat (nested)
+```Python
+for a in range(0, 10):
+    for b in range (0, 10):
+        print("{0:>3}".format(b + a), end=" ")
+    print()
+```
+- Gunakan fungsi for `for a in range(0, 10):` akan berfungsi sebagai kolom begitu juga dengan b tapi akan berfungsi sebagai baris
+> `(0,10)` Berfungsi sebagai pembatas dari angka 0 sampai 9
+- Cetak hasil menggunakan format `{0:>...}` Untuk memberi jarak setiap angka ke angka, dan beri rumus (b+a) untuk menjumlahkan angka kolom dan baris
+- Run Program  
+
+![09  Latihan 1 - Perulangan](https://user-images.githubusercontent.com/115614668/200654550-872b2f81-cf24-40cb-910f-4b5adbfbf03e.png)
+
+---------------------------------------------------
+**Latihan 2 - Perulangan**
+----------------------------------------------
+Membuat program bilangan acak yang lebih kecil dari 0.5
+
+*1. Cetak nilai bilangan yang akan di input*  
+*2. Gunakan fungsi `import random` terlebih dahulu*  
+```Python
+jumlah = int(input("Masukkan nilai n : "))
+import random
+for i in range (jumlah) :
+    print("Data ke", i+1,"=",(random.uniform(0.1,0.5)))
+```
+*3. Angka yang di input akan mencetak jumlah seberapa banyaknya nilai data ke* `print("Data ke", i+1,"=",(random.uniform(0.1,0.5)))`  
+*4. Cetak dengan rumus `i+1` untuk mencetak +1 setiap seberapa banyak nilai input yang dimasukkan*  
+> (0.1,0.5) gunanya untuk membatasi angka acak dari 0,1 sampai 0,5  
+
+*5. Jalankan program*  
+
+![10  Latihan 2 - Perulangan](https://user-images.githubusercontent.com/115614668/200654557-00cded33-d30d-4531-9b65-f2e1f6e3e52d.png)  
+
+---------------------------------------------------
+Sekian
+---------------------------------------------------
